@@ -1,0 +1,167 @@
+html {
+    font-size: 16px;
+    font-family: 'Syne Mono', sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.section {
+    margin-top: 5rem;
+}
+
+
+/* header style */
+
+#logo img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 2rem;
+}
+
+header {
+    text-align: center;
+}
+
+header .title {
+    position: relative;
+    z-index: 5;
+}
+
+header .title h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1;
+    padding-top: 1rem;
+}
+
+.nav {
+    background-color: rgb(47, 96, 149);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav a {
+    color:aliceblue;    
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    #logo img {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .nav {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .nav a {
+        padding: 0 10px;
+        
+    }
+}
+
+/*hero-section style*/
+
+.hero-section {
+    background-image: url(./resources/tomas-sobek-jTP3p3tAF-E-unsplash.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 1px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 680px) {
+    .hero-section p {
+        padding: 0 1.5rem;
+    }
+}
+
+/* about us style */
+
+
+/* packages style */
+
+.package-name {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.package-name img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.packages .location {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+/* team style */
+
+figcaption {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+figure img {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.instructors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* footer style */
+
+footer {
+    background-color: black;
+    color:aliceblue;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.footer-content a {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.info {
+    padding: 2rem;
+}
+
